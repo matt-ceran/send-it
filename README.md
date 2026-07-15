@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Design/SendIt-AppIcon.svg" alt="Send It app icon" width="128">
+  <img src="Design/SendIt-AppIcon.svg" alt="Send It Signal S app icon" width="128">
 </p>
 
 # Send It
