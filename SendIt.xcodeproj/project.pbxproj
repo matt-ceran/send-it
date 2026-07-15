@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0759ADE91ECC0E0CCE02D590 /* PDFBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFFBED991033CE75B6D8E04 /* PDFBuilderTests.swift */; };
+		15872ADD8574D58775F7ECA1 /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C70CBB7141AA891747FD8E /* DocumentScannerView.swift */; };
+		1C150D497727F8BCA702456F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB07F1F5A679EA15FBBB4F28 /* Assets.xcassets */; };
+		22F7632D72F531DED06B3EE8 /* SendItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA586DD7E6FAF56AEAA0765 /* SendItApp.swift */; };
+		2C55E0001251DD9471F28D42 /* SendItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478C553B0DD1750FA5FDFC2 /* SendItUITests.swift */; };
+		3B3EAB8FCD5AAE64919BD657 /* SendItViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAB7B8A34ABB670804E1CD /* SendItViewModel.swift */; };
+		6173515F1D6F069C4D1E411A /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996DA7C556A23A356DDBE061 /* ShareSheet.swift */; };
+		7D51EEE875E7010E69B45FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EE487CF7E8B73681FA0F5 /* ContentView.swift */; };
+		950E7DE14326E90C8CE7DE67 /* PDFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A052BD84EB1F1B1FCFCDD9 /* PDFBuilder.swift */; };
+		E91CD309F31948434130D1C7 /* ScannedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8141FE6A33A60B4FC5E97 /* ScannedDocument.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CAE7DEDE1C840B013C8D130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74FBBF417A2DCD1CCC76B8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278F14F134C92E7AC1CB6ACE;
+			remoteInfo = SendIt;
+		};
+		FCAA71E1A433D698B4AA30CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74FBBF417A2DCD1CCC76B8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278F14F134C92E7AC1CB6ACE;
+			remoteInfo = SendIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA586DD7E6FAF56AEAA0765 /* SendItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendItApp.swift; sourceTree = "<group>"; };
+		0DFABCEA252C14F1DA2F9FD4 /* SendIt.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SendIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426EE487CF7E8B73681FA0F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44B8141FE6A33A60B4FC5E97 /* ScannedDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDocument.swift; sourceTree = "<group>"; };
+		6DFFBED991033CE75B6D8E04 /* PDFBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBuilderTests.swift; sourceTree = "<group>"; };
+		7C26E16A421AEDCEC60DD042 /* SendItUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SendItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		996DA7C556A23A356DDBE061 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		A7C70CBB7141AA891747FD8E /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
+		BB07F1F5A679EA15FBBB4F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6A052BD84EB1F1B1FCFCDD9 /* PDFBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBuilder.swift; sourceTree = "<group>"; };
+		CFBAB7B8A34ABB670804E1CD /* SendItViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendItViewModel.swift; sourceTree = "<group>"; };
+		DEF3BCB4B462AD057CFB7524 /* SendItTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SendItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F478C553B0DD1750FA5FDFC2 /* SendItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendItUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B0170BC6A403442229F319D /* SendItTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DFFBED991033CE75B6D8E04 /* PDFBuilderTests.swift */,
+			);
+			path = SendItTests;
+			sourceTree = "<group>";
+		};
+		340621837170AEC6CC45EE34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44B8141FE6A33A60B4FC5E97 /* ScannedDocument.swift */,
+				CFBAB7B8A34ABB670804E1CD /* SendItViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F3CB244E7268DB0001E6C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DFABCEA252C14F1DA2F9FD4 /* SendIt.app */,
+				DEF3BCB4B462AD057CFB7524 /* SendItTests.xctest */,
+				7C26E16A421AEDCEC60DD042 /* SendItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65368349EF45842E261F1431 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6A052BD84EB1F1B1FCFCDD9 /* PDFBuilder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6878A5B3239F18E58472B9D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7C70CBB7141AA891747FD8E /* DocumentScannerView.swift */,
+				996DA7C556A23A356DDBE061 /* ShareSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		996B60028560984FDC704E72 /* SendIt */ = {
+			isa = PBXGroup;
+			children = (
+				BB07F1F5A679EA15FBBB4F28 /* Assets.xcassets */,
+				426EE487CF7E8B73681FA0F5 /* ContentView.swift */,
+				0AA586DD7E6FAF56AEAA0765 /* SendItApp.swift */,
+				340621837170AEC6CC45EE34 /* Models */,
+				65368349EF45842E261F1431 /* Services */,
+				6878A5B3239F18E58472B9D1 /* Views */,
+			);
+			path = SendIt;
+			sourceTree = "<group>";
+		};
+		D0A59FD48693F7B05B8E7BBB /* SendItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F478C553B0DD1750FA5FDFC2 /* SendItUITests.swift */,
+			);
+			path = SendItUITests;
+			sourceTree = "<group>";
+		};
+		EF7FB6CCCD42A3261CF71CCF = {
+			isa = PBXGroup;
+			children = (
+				996B60028560984FDC704E72 /* SendIt */,
+				1B0170BC6A403442229F319D /* SendItTests */,
+				D0A59FD48693F7B05B8E7BBB /* SendItUITests */,
+				3F3CB244E7268DB0001E6C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007A685E9789A330E022A4BA /* SendItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA8A52AB1E72299D01434CB /* Build configuration list for PBXNativeTarget "SendItUITests" */;
+			buildPhases = (
+				F18F4FA7C80844C816789D04 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E62E25CA8A697C6A324EB015 /* PBXTargetDependency */,
+			);
+			name = SendItUITests;
+			packageProductDependencies = (
+			);
+			productName = SendItUITests;
+			productReference = 7C26E16A421AEDCEC60DD042 /* SendItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		278F14F134C92E7AC1CB6ACE /* SendIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6998D5BE0B4514E663ABBCA0 /* Build configuration list for PBXNativeTarget "SendIt" */;
+			buildPhases = (
+				4B506070D76E3B34F68491B5 /* Sources */,
+				EE0A49E8036123B4DCBCF84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendIt;
+			packageProductDependencies = (
+			);
+			productName = SendIt;
+			productReference = 0DFABCEA252C14F1DA2F9FD4 /* SendIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E68E33032E4DACFCD5A6D97F /* SendItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A58F458BD53744B48E9BA1D /* Build configuration list for PBXNativeTarget "SendItTests" */;
+			buildPhases = (
+				98FBCC2950C5275E1EA786B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6EBF82437E0641EBAF8425A /* PBXTargetDependency */,
+			);
+			name = SendItTests;
+			packageProductDependencies = (
+			);
+			productName = SendItTests;
+			productReference = DEF3BCB4B462AD057CFB7524 /* SendItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FBBF417A2DCD1CCC76B8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					007A685E9789A330E022A4BA = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 278F14F134C92E7AC1CB6ACE;
+					};
+					278F14F134C92E7AC1CB6ACE = {
+						ProvisioningStyle = Automatic;
+					};
+					E68E33032E4DACFCD5A6D97F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3BF1C1F271412587533E6EA /* Build configuration list for PBXProject "SendIt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EF7FB6CCCD42A3261CF71CCF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3F3CB244E7268DB0001E6C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278F14F134C92E7AC1CB6ACE /* SendIt */,
+				E68E33032E4DACFCD5A6D97F /* SendItTests */,
+				007A685E9789A330E022A4BA /* SendItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0A49E8036123B4DCBCF84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C150D497727F8BCA702456F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B506070D76E3B34F68491B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D51EEE875E7010E69B45FBE /* ContentView.swift in Sources */,
+				15872ADD8574D58775F7ECA1 /* DocumentScannerView.swift in Sources */,
+				950E7DE14326E90C8CE7DE67 /* PDFBuilder.swift in Sources */,
+				E91CD309F31948434130D1C7 /* ScannedDocument.swift in Sources */,
+				22F7632D72F531DED06B3EE8 /* SendItApp.swift in Sources */,
+				3B3EAB8FCD5AAE64919BD657 /* SendItViewModel.swift in Sources */,
+				6173515F1D6F069C4D1E411A /* ShareSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FBCC2950C5275E1EA786B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0759ADE91ECC0E0CCE02D590 /* PDFBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18F4FA7C80844C816789D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C55E0001251DD9471F28D42 /* SendItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6EBF82437E0641EBAF8425A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278F14F134C92E7AC1CB6ACE /* SendIt */;
+			targetProxy = FCAA71E1A433D698B4AA30CE /* PBXContainerItemProxy */;
+		};
+		E62E25CA8A697C6A324EB015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278F14F134C92E7AC1CB6ACE /* SendIt */;
+			targetProxy = 0CAE7DEDE1C840B013C8D130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F2DB66E32E848A0D1EB612C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Send It";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Send It uses the camera to scan your notebook pages into a PDF.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendit.notebookpdf;
+				PRODUCT_NAME = SendIt;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FD5F6FA75CBFD10026D89F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70EA116765F2F3AA268C6C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		913941C26FF685AA5972C9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendit.notebookpdf.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendIt.app/SendIt";
+			};
+			name = Debug;
+		};
+		B4FCFE89E2937D5FED8E6319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendit.notebookpdf.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendIt;
+			};
+			name = Debug;
+		};
+		DD93895739431EF723AA6F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Send It";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Send It uses the camera to scan your notebook pages into a PDF.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendit.notebookpdf;
+				PRODUCT_NAME = SendIt;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F1D0BFDC97BBAA8128B4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendit.notebookpdf.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendIt;
+			};
+			name = Release;
+		};
+		FA256A9EF593AB4D21F9B228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendit.notebookpdf.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendIt.app/SendIt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A58F458BD53744B48E9BA1D /* Build configuration list for PBXNativeTarget "SendItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913941C26FF685AA5972C9C9 /* Debug */,
+				FA256A9EF593AB4D21F9B228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6998D5BE0B4514E663ABBCA0 /* Build configuration list for PBXNativeTarget "SendIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD93895739431EF723AA6F68 /* Debug */,
+				6F2DB66E32E848A0D1EB612C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3BF1C1F271412587533E6EA /* Build configuration list for PBXProject "SendIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD5F6FA75CBFD10026D89F0 /* Debug */,
+				70EA116765F2F3AA268C6C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBA8A52AB1E72299D01434CB /* Build configuration list for PBXNativeTarget "SendItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCFE89E2937D5FED8E6319 /* Debug */,
+				E8F1D0BFDC97BBAA8128B4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FBBF417A2DCD1CCC76B8C4 /* Project object */;
+}
